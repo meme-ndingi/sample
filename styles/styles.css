@@ -8,6 +8,9 @@ body {
 .logo {
   max-height: 48px;
 }
+nav {
+  margin: 20px 0;
+}
 nav li {
   display: inline;
   list-style: none;
@@ -46,18 +49,19 @@ h1 {
 }
 .hero {
   text-align: center;
-  padding: 160px 30px;
+  padding: 80px 30px;
   background-color: var(--background-color);
   width: auto;
 }
 .btn-branding {
+  background: var(--button-color);
+  border-radius: 4px;
   color: white;
-  background-color: var(--button-color);
-  padding: 15px 30px;
-  font-family: "Poppins", sans-serif;
   font-size: 18px;
-  font-weight: 500;
+  line-height: 27px;
+  padding: 15px 30px;
 }
+
 footer {
   margin: 60px 0;
 }
@@ -89,8 +93,11 @@ p {
   font-size: 22px;
   font-weight: 500;
 }
+btn {
+  color: white;
+}
 .about-section-container {
-  padding: 160px;
+  padding: 60px;
 }
 .about-section-container h1 {
   font-size: 64px;
@@ -160,8 +167,9 @@ footer p {
     text-align: center;
   }
 }
+
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 .content h1 {
   text-align: center;
@@ -184,7 +192,7 @@ footer p {
   margin: 30px;
 }
 .contact-infor {
-  padding: 160px 20px;
+  padding: 60px 20px;
   margin: 30px;
 }
 
