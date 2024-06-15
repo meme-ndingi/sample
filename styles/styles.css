@@ -5,6 +5,23 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+.logo {
+  max-height: 48px;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+ul a {
+  text-decoration: none;
+  color: black;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--button-color);
+}
 h1 {
   color: black;
   font-family: "Playfair Display", serif;
@@ -83,6 +100,9 @@ p {
   line-height: 30px;
 }
 @media (max-width: 900px) {
+  nav ul {
+    padding: 0;
+  }
   .hero p {
     margin: 0;
   }
